@@ -1,0 +1,27 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "description": "Taking Parcel Bundler for a spin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/damassi/parcel-example.git"
+  },
+  "author": "Christopher Pappas <damassi.pappas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damassi/parcel-example/issues"
+  },
+  "homepage": "https://github.com/damassi/parcel-example#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.0.2"
+  }
+}
